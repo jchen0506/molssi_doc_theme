@@ -92,11 +92,31 @@ pygments_style = 'default'
 #
 html_theme = "pydata_sphinx_theme"
 
+
+# Project logo option
+html_logo = "_static/molssi_main_logo.png"
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+	"github_url": "https://github.com/jchen0506/molssi_doc_theme",
+	"show_nav_level": 2,
+	"icon_links": [
+			{
+					# Label for this link
+					"name": "MolSSI  Doc Theme",
+					# URL where the link will redirect
+					"url": "https://github.com/jchen0506/molssi_doc_theme",  # required
+					# Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
+					"icon": "fab fa-github-square",
+					# Whether icon should be a FontAwesome class, or a local file
+					"type": "fontawesome",  # Default is fontawesome
+			}
+	],
+	"collapse_navigation": False
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
