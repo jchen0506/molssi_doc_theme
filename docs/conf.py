@@ -50,6 +50,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.intersphinx',
     'sphinx.ext.extlinks',
+		'sphinx_design'
 ]
 
 autosummary_generate = True
@@ -103,18 +104,6 @@ html_logo = "_static/molssi_main_logo.png"
 html_theme_options = {
 	"github_url": "https://github.com/jchen0506/molssi_doc_theme",
 	"show_nav_level": 2,
-	"icon_links": [
-			{
-					# Label for this link
-					"name": "MolSSI  Doc Theme",
-					# URL where the link will redirect
-					"url": "https://github.com/jchen0506/molssi_doc_theme",  # required
-					# Icon class (if "type": "fontawesome"), or path to local image (if "type": "local")
-					"icon": "fab fa-github-square",
-					# Whether icon should be a FontAwesome class, or a local file
-					"type": "fontawesome",  # Default is fontawesome
-			}
-	],
 	"collapse_navigation": False
 }
 
@@ -123,6 +112,9 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_css_files = [
+    'css/custom.css',
+]
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -131,7 +123,9 @@ html_static_path = ['_static']
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-# html_sidebars = {}
+html_sidebars = {
+    "**": ["search-field", "sidebar-nav-bs", "sidebar-ethical-ads"]
+}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------

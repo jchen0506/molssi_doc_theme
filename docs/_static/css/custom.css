@@ -1,0 +1,5 @@
+@import "../basic.css";
+
+:root {
+	--pst-color-primary: #ed1c24 !important;
+}
