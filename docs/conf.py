@@ -96,6 +96,7 @@ html_theme = "pydata_sphinx_theme"
 
 # Project logo option
 html_logo = "_static/molssi_main_logo.png"
+html_favicon = "_static/molssi_square.png"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -103,8 +104,20 @@ html_logo = "_static/molssi_main_logo.png"
 #
 html_theme_options = {
 	"github_url": "https://github.com/jchen0506/molssi_doc_theme",
+	"twitter_url": "https://twitter.com/MolSSI_NSF",
+
+	"logo": {
+      "image_light": "molssi_main_logo.png",
+      "image_dark": "molssi_main_logo_inverted_white.png",
+    },
+
 	"show_nav_level": 2,
-	"collapse_navigation": False
+	"collapse_navigation": False,
+	"external_links": [
+      {"name": "MolSSI", "url": "https://molssi.org"}
+  ],
+
+	"secondary_sidebar_items": ["page-toc", "sourcelink"],
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -113,7 +126,7 @@ html_theme_options = {
 html_static_path = ['_static']
 
 html_css_files = [
-    'css/custom.css',
+  'css/custom.css',
 ]
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -124,7 +137,7 @@ html_css_files = [
 # 'searchbox.html']``.
 #
 html_sidebars = {
-    "**": ["search-field", "sidebar-nav-bs", "sidebar-ethical-ads"]
+  '**': ['globaltoc.html','search-field.html']
 }
 
 

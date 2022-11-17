@@ -11,7 +11,7 @@ Welcome to molssi_doc_theme's documentation!
     .. grid-item-card:: Getting Started
       :margin: 0 3 0 0 
       
-      Learn the basics of using ProjectName.
+      Learn the basics of using molssi_doc_theme.
 
       .. button-link:: ./getting_started.html
          :color: primary
@@ -35,7 +35,7 @@ Welcome to molssi_doc_theme's documentation!
     .. grid-item-card:: API Reference
       :margin: 0 3 0 0
       
-      How to use the API of ProjectName.
+      How to use the API of molssi_doc_theme.
 
       .. button-link:: ./api.html
          :color: primary
@@ -47,7 +47,7 @@ Welcome to molssi_doc_theme's documentation!
     .. grid-item-card::  Developer Guide
       :margin: 0 3 0 0
       
-      How to contribute to ProjectName
+      How to contribute to molssi_doc_theme
 
       .. button-link:: ./developer_guide.html
          :color: primary
