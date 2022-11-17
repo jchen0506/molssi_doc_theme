@@ -110,9 +110,8 @@ html_theme_options = {
       "image_light": "molssi_main_logo.png",
       "image_dark": "molssi_main_logo_inverted_white.png",
     },
-
-	"show_nav_level": 2,
-	"collapse_navigation": False,
+	"show_toc_level": 2,
+	"header_links_before_dropdown": 4,
 	"external_links": [
       {"name": "MolSSI", "url": "https://molssi.org"}
   ],
@@ -136,9 +135,11 @@ html_css_files = [
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
+
 html_sidebars = {
-  '**': ['globaltoc.html','search-field.html']
+  "**": ['sidebar-nav-bs', 'search-field.html']
 }
+
 
 
 # -- Options for HTMLHelp output ---------------------------------------------

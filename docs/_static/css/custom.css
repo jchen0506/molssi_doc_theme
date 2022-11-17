@@ -1,10 +1,6 @@
 @import "../basic.css";
 
-:root {
+html {
 	--pst-color-primary: #ed1c24 !important;
 	--pst-color-link-hover: gray !important;
-}
-
-i.fa-twitter-square:before {
-	color: gray;
 }
