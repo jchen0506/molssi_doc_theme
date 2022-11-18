@@ -39,3 +39,7 @@ html[data-theme="dark"] .prev-next-area a p.prev-next-title {
 html[data-theme="dark"] .prev-next-area:hover a:hover p.prev-next-title:hover {
     color: #ed1c24;
 }
+
+html[data-theme="dark"] dt:target {
+    background-color: #000000;
+}
