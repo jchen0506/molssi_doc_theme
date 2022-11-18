@@ -15,7 +15,6 @@ Welcome to molssi_doc_theme's documentation!
 
       .. button-link:: ./getting_started.html
          :color: primary
-         :outline:
          :expand:
 
          To the Getting Started Guide
@@ -27,7 +26,6 @@ Welcome to molssi_doc_theme's documentation!
 
       .. button-link:: ./user_guide.html
          :color: primary
-         :outline:
          :expand:
 
          To the User Guide
@@ -39,7 +37,6 @@ Welcome to molssi_doc_theme's documentation!
 
       .. button-link:: ./api.html
          :color: primary
-         :outline:
          :expand:
 
          To the API Reference.
@@ -51,7 +48,6 @@ Welcome to molssi_doc_theme's documentation!
 
       .. button-link:: ./developer_guide.html
          :color: primary
-         :outline:
          :expand:
 
          To the Developer Guide
