@@ -3,17 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to molssi_doc_theme's documentation!
+The MolSSI Documentation Theme
 =========================================================
+
+This website demonstrates the new MolSSI Documentation theme,
+and explains how to migrate your project's documentation.
+
+There are two parts to updating to the new documentaiton theme:
+
+1. Changing your Sphinx theme.
+2. Switching to the Diataxis documentation framework.
 
 .. grid:: 1 1 2 2
 
     .. grid-item-card:: Getting Started
       :margin: 0 3 0 0 
       
-      Learn the basics of using molssi_doc_theme.
+      Learn how to update your Sphinx theme.
 
-      .. button-link:: ./getting_started.html
+      .. button-link:: ./getting_started/index.html
          :color: primary
          :expand:
 
@@ -22,9 +30,9 @@ Welcome to molssi_doc_theme's documentation!
     .. grid-item-card::  User Guide
       :margin: 0 3 0 0
       
-      An in-depth guide for users
+      How to organize your project using the Diataxis Framework.
 
-      .. button-link:: ./user_guide.html
+      .. button-link:: ./user_guide/index.html
          :color: primary
          :expand:
 
@@ -33,9 +41,9 @@ Welcome to molssi_doc_theme's documentation!
     .. grid-item-card:: API Reference
       :margin: 0 3 0 0
       
-      How to use the API of molssi_doc_theme.
+      Most projects will also need an API reference.
 
-      .. button-link:: ./api.html
+      .. button-link:: ./api/index.html
          :color: primary
          :expand:
 
@@ -58,8 +66,8 @@ Welcome to molssi_doc_theme's documentation!
    :hidden:
    :titlesonly:
 
-   getting_started
-   user_guide
-   api
-   developer_guide
+   getting_started/index
+   user_guide/index
+   api/index
+   developer_guide/index
 
