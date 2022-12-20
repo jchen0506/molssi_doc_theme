@@ -136,9 +136,9 @@ html_css_files = [
 # 'searchbox.html']``.
 #
 
-html_sidebars = {
-  "**": ['sidebar-nav-bs', 'search-field.html']
-}
+# html_sidebars = {
+#   "**": ['globaltoc.html', 'search-field.html']
+# }
 
 
 
