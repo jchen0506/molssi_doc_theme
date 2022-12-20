@@ -3,6 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. html_theme.sidebar_secondary.remove:
+
+
 The MolSSI Documentation Theme
 =========================================================
 
@@ -13,6 +16,18 @@ There are two parts to updating to the new documentaiton theme:
 
 1. Changing your Sphinx theme.
 2. Switching to the Diataxis documentation framework.
+
+The `Getting Started <getting_started/index.html>`_ page describes how to
+update your Sphinx theme. This will make your documentation use the 
+`PyData Sphinx Theme <https://pydata-sphinx-theme.readthedocs.io/en/latest/>`_ with MolSSI customization, and explains how to achieve the
+grid on the front page.
+
+To update your documentation to follow the `Diataxis framework <https://diataxis.fr/>`_, 
+we recommend reading the `How To Guide <https://diataxis.fr/how-to-use-diataxis/>`_. 
+Note that it may take some time to change documentation to fit this framework, 
+and that it may be relevant to varying degrees.
+
+You should be able to achieve updating the theme without fully updating your documentation structure.
 
 .. grid:: 1 1 2 2
 
@@ -30,7 +45,7 @@ There are two parts to updating to the new documentaiton theme:
     .. grid-item-card::  User Guide
       :margin: 0 3 0 0
       
-      How to organize your project using the Diataxis Framework.
+      To the User Guide.
 
       .. button-link:: ./user_guide/index.html
          :color: primary
