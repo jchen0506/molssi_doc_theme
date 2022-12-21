@@ -110,6 +110,7 @@ html_theme_options = {
 	"logo": {
       "image_light": "molssi_main_logo.png",
       "image_dark": "molssi_main_logo_inverted_white.png",
+      "text": "Docs Theme"
     },
 	"show_toc_level": 2,
 	"header_links_before_dropdown": 4,
