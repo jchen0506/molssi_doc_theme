@@ -1,11 +1,11 @@
 # Compiling molssi_doc_theme's Documentation
 
-The docs for this project are built with [Sphinx](http://www.sphinx-doc.org/en/master/).
-To compile the docs, first ensure that Sphinx and the ReadTheDocs theme are installed.
+The docs for this project are base on [Pydata Sphinx Theme](http://www.sphinx-doc.org/en/master/) with custom CSS defining colors for MolSSI.
+To properly build documentation using, the MolSSI Doc Theme, you will need to install both of these dependencies.
 
 
 ```bash
-conda install sphinx sphinx_rtd_theme 
+conda install -c conda-forge pydata-sphinx-theme sphinx-design
 ```
 
 
