@@ -38,6 +38,11 @@ html[data-theme="dark"] .reference.external {
 
 }
 
+html[data-theme="dark"] p .reference.internal {
+	text-decoration: underline;
+
+}
+
 html[data-theme="dark"] a:hover {
 	color: #ed1c24;
 }
