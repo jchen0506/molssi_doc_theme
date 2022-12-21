@@ -17,8 +17,15 @@ you will need to install both of these dependencies.
 
    conda install -c conda-forge pydata-sphinx-theme sphinx-design
 
+If you want to add a copy button to your code blocks, you should also install 
+`Sphinx CopyButton <https://sphinx-copybutton.readthedocs.io/en/latest/index.html>`_.
+
+.. code-block:: bash
+
+   pip install sphinx-copybutton
+
 If you have a `yaml` file which defined your documentation, make
-sure to add both of these packages as dependencies.
+sure to add all of these packages as dependencies.
 
 Obtaining and Adding Theme Assets
 ---------------------------------
@@ -40,11 +47,13 @@ and add the ``custom.css`` file in a directory under ``_static``
 called ``css``.
 
 Updating ``conf.py``
--------------------
+--------------------
 Next, you will need to update your Sphinx configuration file,
 `conf.py` to use the PyData Sphinx Theme.
 
 Add ``sphinx-design`` to the ``extensions`` section in your ``conf.py``.
+You may also want to add a ``copy`` button to your code blocks. 
+To add this feature, add ``sphinx-copybutton`` to your extensions.
 For example, if you have created your project from the 
 `MolSSI Cookiecutter <https://github.com/MolSSI/cookiecutter-cms>`_,
 your ``extensions``, might look like the following after you have updated your extensions:
@@ -59,7 +68,8 @@ your ``extensions``, might look like the following after you have updated your e
     'sphinx.ext.napoleon',
     'sphinx.ext.intersphinx',
     'sphinx.ext.extlinks',
-	 'sphinx_design'
+	 'sphinx_design',
+    'sphinx_copybutton'
    ]
 
 Next, change the theme and add the custom CSS:
@@ -72,7 +82,7 @@ Next, change the theme and add the custom CSS:
    'css/custom.css',
    ]
 
-Finally, you will need to configure use of the light and dark
+You will need to configure use of the light and dark
 logos in your ``conf.py`` and set other HTML
 theme options. Make sure to update this with your project's
 GitHub URL.
@@ -103,6 +113,17 @@ light and dark MolSSI logos.
 If your project has different logos, update the appropriate names on 
 ``lines 6-7``. These logos should be in your ``_static`` folder
 as described in the previous section.
+
+If you would like a label next to your project logo in the navbar,
+you can also set this in your ``conf.py`` file.
+
+.. code-block::
+
+   html_theme_options = {
+    "logo": {
+        "text": "YOUR PROJECT NAME",
+    }
+   }
 
 A First View of the Theme
 -------------------------
