@@ -34,7 +34,7 @@ html[data-theme="dark"] a {
 }
 
 html[data-theme="dark"] .reference.external {
-	color: #ed1c24;
+	text-decoration: underline;
 
 }
 
