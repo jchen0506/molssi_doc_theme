@@ -29,9 +29,13 @@ html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] 
 }
 
 
-
 html[data-theme="dark"] a {
 	color: #ffffff;
+}
+
+html[data-theme="dark"] .reference.external {
+	color: #ed1c24;
+
 }
 
 html[data-theme="dark"] a:hover {
