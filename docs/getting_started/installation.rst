@@ -115,12 +115,15 @@ If your project has different logos, update the appropriate names on
 as described in the previous section.
 
 If you would like a label next to your project logo in the navbar,
-you can also set this in your ``conf.py`` file.
+you can also set this in your ``conf.py`` file by adding another
+entry to the ``logo`` section. 
+The label for this site is "Docs Theme".
 
 .. code-block::
 
    html_theme_options = {
     "logo": {
+    	# Light and dark logo information here
         "text": "YOUR PROJECT NAME",
     }
    }
